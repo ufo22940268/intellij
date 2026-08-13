@@ -351,7 +351,7 @@ http_archive(
 
 ARTIFACTS_VERISION_261 = "261.22158.277"
 
-TEST_FRAMEWORK_JAR_261_URL = "https://www.jetbrains.com/intellij-repository/snapshots/com/jetbrains/intellij/platform/test-framework/" + ARTIFACTS_VERISION_261 + "/test-framework-" + ARTIFACTS_VERISION_261 + ".jar"
+TEST_FRAMEWORK_JAR_261_URL = "https://www.jetbrains.com/intellij-repository/releases/com/jetbrains/intellij/platform/test-framework/" + ARTIFACTS_VERISION_261 + "/test-framework-" + ARTIFACTS_VERISION_261 + ".jar"
 TEST_FRAMEWORK_JAR_261_SHA = "c89a661399980cd4ee3fb70076fec9731c317d8ae94cc07212d4f9577bcc0e05"
 
 http_jar(
@@ -360,7 +360,7 @@ http_jar(
     sha256 = TEST_FRAMEWORK_JAR_261_SHA,
 )
 
-TEST_FRAMEWORK_COMMON_JAR_261_URL = "https://www.jetbrains.com/intellij-repository/snapshots/com/jetbrains/intellij/platform/test-framework-common/" + ARTIFACTS_VERISION_261 + "/test-framework-common-" + ARTIFACTS_VERISION_261 + ".jar"
+TEST_FRAMEWORK_COMMON_JAR_261_URL = "https://www.jetbrains.com/intellij-repository/releases/com/jetbrains/intellij/platform/test-framework-common/" + ARTIFACTS_VERISION_261 + "/test-framework-common-" + ARTIFACTS_VERISION_261 + ".jar"
 TEST_FRAMEWORK_COMMON_JAR_261_SHA = "6fa57ac59dbc46da336e7e4819f5b3d397fc00eb504d6756a3631a7b5de801ef"
 
 http_jar(
@@ -369,7 +369,7 @@ http_jar(
     sha256 = TEST_FRAMEWORK_COMMON_JAR_261_SHA,
 )
 
-TEST_FRAMEWORK_CORE_JAR_261_URL = "https://www.jetbrains.com/intellij-repository/snapshots/com/jetbrains/intellij/platform/test-framework-core/" + ARTIFACTS_VERISION_261 + "/test-framework-core-" + ARTIFACTS_VERISION_261 + ".jar"
+TEST_FRAMEWORK_CORE_JAR_261_URL = "https://www.jetbrains.com/intellij-repository/releases/com/jetbrains/intellij/platform/test-framework-core/" + ARTIFACTS_VERISION_261 + "/test-framework-core-" + ARTIFACTS_VERISION_261 + ".jar"
 TEST_FRAMEWORK_CORE_JAR_261_SHA = "aed737eaf50a72907e392528a662f6866b9efc790f2ebf9e5b55aeae65474c2b"
 
 http_jar(
@@ -378,7 +378,7 @@ http_jar(
     sha256 = TEST_FRAMEWORK_CORE_JAR_261_SHA,
 )
 
-JAVA_TEST_FRAMEWORK_JAR_261_URL = "https://www.jetbrains.com/intellij-repository/snapshots/com/jetbrains/intellij/java/java-test-framework/" + ARTIFACTS_VERISION_261 + "/java-test-framework-" + ARTIFACTS_VERISION_261 + ".jar"
+JAVA_TEST_FRAMEWORK_JAR_261_URL = "https://www.jetbrains.com/intellij-repository/releases/com/jetbrains/intellij/java/java-test-framework/" + ARTIFACTS_VERISION_261 + "/java-test-framework-" + ARTIFACTS_VERISION_261 + ".jar"
 JAVA_TEST_FRAMEWORK_JAR_261_SHA = "045446088b352379fdf1549ec104619ed79406f3d4f39b0cb3e7c58c21535622"
 
 http_jar(
@@ -387,7 +387,7 @@ http_jar(
     sha256 = JAVA_TEST_FRAMEWORK_JAR_261_SHA,
 )
 
-JAVA_TEST_FRAMEWORK_SHARED_JAR_261_URL = "https://www.jetbrains.com/intellij-repository/snapshots/com/jetbrains/intellij/java/java-test-framework-shared/" + ARTIFACTS_VERISION_261 + "/java-test-framework-shared-" + ARTIFACTS_VERISION_261 + ".jar"
+JAVA_TEST_FRAMEWORK_SHARED_JAR_261_URL = "https://www.jetbrains.com/intellij-repository/releases/com/jetbrains/intellij/java/java-test-framework-shared/" + ARTIFACTS_VERISION_261 + "/java-test-framework-shared-" + ARTIFACTS_VERISION_261 + ".jar"
 JAVA_TEST_FRAMEWORK_SHARED_JAR_261_SHA = "db3407a2d7bef858d028f4412c055cfaf16ab5121a3f338ed07cebefff66e110"
 
 http_jar(

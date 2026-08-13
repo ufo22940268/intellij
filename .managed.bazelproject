@@ -23,6 +23,7 @@ build_flags:
   # Choose one target ij product:
   # --define=ij_product=intellij-oss-under-dev
   # --define=ij_product=intellij-ue-oss-under-dev
+  --define=ij_product=intellij-ue-2026.1
   # --define=ij_product=clion-oss-under-dev
 
   # Setup disk cache, can improve build times:
